@@ -1,0 +1,11 @@
+@name = Armando
+@url = https://t6zdxr5lswc5qwgehzldwr4txu0smqpx.lambda-url.us-east-1.on.aws/
+GET {{url}}?name={{name}}
+###
+POST {{url}}
+content-type: application/json
+
+ {
+    "name": "Pedro"
+ }
+
